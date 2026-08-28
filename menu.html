@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu | Brew & Botanicals</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+    <div class="nav-container">
+
+        <a href="Home.html" class="brand">
+            <div class="logo">
+                <span class="material-symbols-outlined">local_cafe</span>
+            </div>
+
+            <span>Brew & Botanicals</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="menu.html" class="active">Menu</a>
+            
+        </div>
+
+        <a href="Locations.html" class="order-btn">
+            Our Locations
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#">Menu</a>
+        <a href="#order">Order Online</a>
+        <a href="#about">About</a>
+        <a href="#locations">Locations</a>
+        <a href="#order" class="mobile-order">Order Now</a>
+    </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<header class="hero">
+
+    <p class="hero-small">EST. 2024 · ARTISAN COFFEE & BOTANICALS</p>
+
+    <h1>Our Menu</h1>
+
+    <p>
+        A curated collection of small-batch roasts and hand-picked
+        botanicals, served with intention.
+    </p>
+
+</header>
+
+
+<main class="main-container">
+
+    <!-- ================= MENU GRID ================= -->
+
+    <section class="menu-grid">
+
+        <!-- ESPRESSO -->
+
+        <div class="espresso-section menu-panel">
+
+            <div class="section-title">
+
+                <span class="material-symbols-outlined">
+                    coffee
+                </span>
+
+                <h2>Espresso Bar</h2>
+
+            </div>
+
+
+            <div class="menu-items">
+
+                <article class="menu-item">
+
+                    <div class="item-heading">
+
+                        <h3>Americano</h3>
+
+                        <span class="dots"></span>
+
+                        <strong>$4.50</strong>
+
+                    </div>
+
+                    <p>
+                        Double shot of our signature Espresso Origin,
+                        lengthened with hot filtered water.
+                    </p>
+
+                </article>
+
+
+                <article class="menu-item">
+
+                    <div class="item-heading">
+
+                        <h3>Latte</h3>
+
+                        <span class="dots"></span>
+
+                        <strong>$5.75</strong>
+
+                    </div>
+
+                    <p>
+                        Silky micro-foam poured over a rich double shot.
+                        Choose from Oat, Almond, or Whole Milk.
+                    </p>
+
+                </article>
+
+
+                <article class="menu-item">
+
+                    <div class="item-heading">
+
+                        <h3>Cappuccino</h3>
+
+                        <span class="dots"></span>
+
+                        <strong>$5.25</strong>
+
+                    </div>
+
+                    <p>
+                        Traditional 6oz pour with equal parts espresso,
+                        steamed milk, and dense foam.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <div class="coffee-image">
+                <img
+                    src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1200&q=85"
+                    alt="Latte coffee">
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT COLUMN -->
+
+        <div class="right-column">
+
+            <!-- SLOW BAR -->
+
+            <section class="slow-bar">
+
+                <div class="section-title">
+
+                    <span class="material-symbols-outlined">
+                        timer
+                    </span>
+
+                    <h2>Slow Bar</h2>
+
+                </div>
+
+                <p class="intro">
+                    Crafted with patience. Each cup takes 4–6 minutes.
+                </p>
+
+
+                <article class="dark-item">
+
+                    <div class="item-top">
+
+                        <h3>Pour Over</h3>
+
+                        <span>$6.50</span>
+
+                    </div>
+
+                    <p>
+                        Rotating single-origin beans. Hand-brewed using
+                        the V60 method for clarity of flavor.
+                    </p>
+
+                </article>
+
+
+                <article class="dark-item">
+
+                    <div class="item-top">
+
+                        <h3>French Press</h3>
+
+                        <span>$8.00</span>
+
+                    </div>
+
+                    <p>
+                        Full-bodied brew, served in a 16oz press for two.
+                        Perfect for lingering conversations.
+                    </p>
+
+                </article>
+
+            </section>
+
+
+            <!-- BOTANICALS -->
+
+            <section class="botanicals">
+
+                <div class="section-title">
+
+                    <span class="material-symbols-outlined">
+                        eco
+                    </span>
+
+                    <h2>Botanicals</h2>
+
+                </div>
+
+
+                <article class="botanical-item">
+
+                    <div>
+                        <h3>Matcha Latte</h3>
+
+                        <p>
+                            Ceremonial grade Uji matcha whisked with
+                            steamed milk.
+                        </p>
+                    </div>
+
+                    <strong>$6.25</strong>
+
+                </article>
+
+
+                <article class="botanical-item">
+
+                    <div>
+                        <h3>Masala Chai</h3>
+
+                        <p>
+                            House-ground spices simmered with black tea
+                            and honey.
+                        </p>
+                    </div>
+
+                    <strong>$5.50</strong>
+
+                </article>
+
+
+                <article class="botanical-item last">
+
+                    <div>
+                        <h3>Herbal Teas</h3>
+
+                        <p>
+                            Rotating seasonal selection including
+                            Chamomile and Rosehip.
+                        </p>
+                    </div>
+
+                    <strong>$4.00</strong>
+
+                </article>
+
+            </section>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BEYOND THE BEAN ================= -->
+
+    <section class="beyond-section" id="about">
+
+        <div class="botanical-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=1200&q=85"
+                alt="Botanical tea ingredients">
+
+            <div class="ethos-card">
+
+                <h4>Our Ethos</h4>
+
+                <p>
+                    We source our botanicals from small-scale
+                    regenerative farms that prioritize soil health
+                    and community well-being.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="beyond-content">
+
+            <span class="eyebrow">
+                CRAFTSMANSHIP
+            </span>
+
+            <h2>Beyond the Bean</h2>
+
+            <p>
+                While coffee is our heartbeat, our botanical program
+                is our soul. Each blend is balanced by our in-house
+                herbalist to provide sustained energy and a moment
+                of clarity.
+            </p>
+
+
+            <div class="tags">
+
+                <span>Non-GMO</span>
+                <span>Direct Trade</span>
+                <span>Organic</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <h3>Brew & Botanicals</h3>
+
+            <p>
+                Est. 2024. Crafting slow moments in a fast world.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Connect</h4>
+
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+
+        </div>
+
+
+        <div class="footer-column" id="locations">
+
+            <h4>Service</h4>
+
+            <a href="#order">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+
+            <small>
+                © 2024 Artisanal Brew & Botanicals.
+                All rights reserved.
+            </small>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="menu.js"></script>
+
+</body>
+</html>
